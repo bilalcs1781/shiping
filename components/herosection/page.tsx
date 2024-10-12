@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import { FaBusinessTime, FaShip } from "react-icons/fa6";
 import { TbMessageSearch } from "react-icons/tb";
 import Aos from "aos";
-import "aos/dist/aos.css"; // Import AOS styles
+import "aos/dist/aos.css"; // Import AOS styes
 
 const HeroSection = () => {
   useEffect(() => {
