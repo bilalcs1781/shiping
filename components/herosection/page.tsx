@@ -1,6 +1,5 @@
 "use client";
 import React, { useEffect } from "react";
-import styles from "./heroSection.module.scss";
 import { FaBusinessTime, FaShip } from "react-icons/fa6";
 import { TbMessageSearch } from "react-icons/tb";
 import Aos from "aos";

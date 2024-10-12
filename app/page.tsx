@@ -1,7 +1,6 @@
 import Footer from "@/components/footer/page";
 import HeroSection from "@/components/herosection/page";
 import Nabar from "@/components/navbar/page";
-import Image from "next/image";
 
 export default function Home() {
   return (
