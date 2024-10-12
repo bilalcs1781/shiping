@@ -106,9 +106,9 @@ const HeroSection = () => {
       </p>
       <div className="container flex justify-between mx-auto mt-12">
         <div
-          data-aos-offset="500"
-          data-aos-duration="500"
-          data-aos="fade-right"
+          //   data-aos-offset="500"
+          //   data-aos-duration="500"
+          //   data-aos="fade-right"
           className="bg-[#F7F7F7] w-[30%] py-8 rounded-lg flex-col items-center justify-center gap-3 p-3"
         >
           <FaBusinessTime className="mx-auto" fontSize={80} />
@@ -117,9 +117,9 @@ const HeroSection = () => {
           </p>
         </div>
         <div
-          data-aos-offset="500"
-          data-aos-duration="500"
-          data-aos="fade-right"
+          //   data-aos-offset="500"
+          //   data-aos-duration="500"
+          //   data-aos="fade-right"
           className="bg-[#F7F7F7] py-8 w-[30%] rounded-lg flex-col items-center justify-center gap-3 p-3"
         >
           <FaShip className="mx-auto" fontSize={80} />
@@ -128,9 +128,9 @@ const HeroSection = () => {
           </p>
         </div>
         <div
-          data-aos-offset="500"
-          data-aos-duration="500"
-          data-aos="fade-right"
+          //   data-aos-offset="500"
+          //   data-aos-duration="500"
+          //   data-aos="fade-right"
           className="bg-[#F7F7F7] py-8 w-[30%] rounded-lg flex-col items-center justify-center gap-3 p-3"
         >
           <TbMessageSearch className="mx-auto" fontSize={80} />
