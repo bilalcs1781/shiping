@@ -1,0 +1,34 @@
+.imgHero {
+  @apply w-full h-[400px];
+  background-color: black;
+  --background-overlay: "";
+}
+.imageContainer {
+  @apply w-full;
+  position: relative; /* Establishes positioning context for child elements */
+  display: inline-block; /* Adjust as needed for layout */
+
+  p {
+    @apply absolute top-[40%] left-[40%] text-[30px] font-[700] text-white;
+  }
+
+  span {
+    @apply absolute top-[50%] left-[6%] text-[20px] right-[6%] font-[500] text-white;
+  }
+}
+
+.overlayImage {
+  @apply w-full h-[400px]; /* Set width and height for the image */
+  display: block; /* Remove bottom spacing */
+}
+
+.imageContainer::after {
+  content: "";
+  position: absolute; /* Position relative to .imageContainer */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+  pointer-events: none; /* Allows interaction with text below the overlay */
+}
