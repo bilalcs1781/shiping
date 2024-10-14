@@ -29,9 +29,9 @@ const HeroSection = () => {
           </p>
         </div>
       </div>
-      <div className="container mx-auto flex mt-24">
+      <div className="container px-4 mx-auto md:flex flex-wrap mt-24">
         <div
-          className="w-1/2"
+          className="md:w-1/2 w-full"
           data-aos="zoom-in"
           data-aos-offset="500"
           data-aos-duration="500"
@@ -71,7 +71,7 @@ const HeroSection = () => {
             className="ml-2.5 mt-1"
           />
         </div>
-        <div className="w-1/2" data-aos="zoom-in">
+        <div className="w-full md:w-1/2" data-aos="zoom-in">
           <img
             data-aos="zoom-in"
             data-aos-offset="500"
@@ -104,12 +104,12 @@ const HeroSection = () => {
       <p className="text-[#AF6B00] font-[700] text-center mt-8 text-[45px]">
         Services
       </p>
-      <div className="container flex justify-between mx-auto mt-12">
+      <div className="container px-4 flex-wrap gap-5 md:flex justify-between mx-auto mt-12">
         <div
           //   data-aos-offset="500"
           //   data-aos-duration="500"
           //   data-aos="fade-right"
-          className="bg-[#F7F7F7] w-[30%] py-8 rounded-lg flex-col items-center justify-center gap-3 p-3"
+          className="bg-[#F7F7F7] sm:w-1/2 w-full md:w-[30%] py-8 rounded-lg flex-col items-center justify-center gap-3 p-3"
         >
           <FaBusinessTime className="mx-auto" fontSize={80} />
           <p className="text-2xl font-[600] mx-auto text-center mt-4">
@@ -120,7 +120,7 @@ const HeroSection = () => {
           //   data-aos-offset="500"
           //   data-aos-duration="500"
           //   data-aos="fade-right"
-          className="bg-[#F7F7F7] py-8 w-[30%] rounded-lg flex-col items-center justify-center gap-3 p-3"
+          className="bg-[#F7F7F7] py-8 sm:w-1/2 w-full md:w-[30%] rounded-lg flex-col items-center justify-center gap-3 p-3"
         >
           <FaShip className="mx-auto" fontSize={80} />
           <p className="text-2xl font-[600] mx-auto text-center mt-4">
@@ -131,7 +131,7 @@ const HeroSection = () => {
           //   data-aos-offset="500"
           //   data-aos-duration="500"
           //   data-aos="fade-right"
-          className="bg-[#F7F7F7] py-8 w-[30%] rounded-lg flex-col items-center justify-center gap-3 p-3"
+          className="bg-[#F7F7F7] py-8 sm:w-1/2 w-full md:w-[30%] rounded-lg flex-col items-center justify-center gap-3 p-3"
         >
           <TbMessageSearch className="mx-auto" fontSize={80} />
           <p className="text-2xl font-[600] mx-auto text-center mt-4">

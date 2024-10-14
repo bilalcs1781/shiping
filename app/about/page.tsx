@@ -14,10 +14,10 @@ const About = () => {
       <img
         src="/Screenshot 2024-10-12 234718.png"
         data-aos="zoom-in"
-        className="w-full"
+        className="w-full min-h-[100px]"
       />
       <div className="bg-[#F8F7F3] ">
-        <div className="container mx-auto py-12">
+        <div className="container px-4 mx-auto py-12">
           <p
             className="text-[22px]"
             data-aos-offset="500"
@@ -30,9 +30,9 @@ const About = () => {
             market, promoting fair and honest trade between markets, and
             fostering trust through effective business practices.
           </p>
-          <div className="flex gap-12 mt-12 ">
+          <div className="flex-wrap md:flex gap-12 mt-12 ">
             <p
-              className="text-[25px] w-1/2 "
+              className="text-[25px] w-full md:w-1/2 "
               data-aos-offset="500"
               data-aos-duration="500"
               data-aos="fade-right"
@@ -49,14 +49,14 @@ const About = () => {
               data-aos="fade-left"
               data-aos-offset="500"
               data-aos-duration="500"
-              className="w-1/3  rounded-lg"
+              className="w-full md:w-1/3  rounded-lg"
             />
           </div>
         </div>
       </div>
-      <div className="container mx-auto">
-        <div className="w-full flex justify-between mt-20 items-center">
-          <div className="w-[45%]">
+      <div className="container px-4 mx-auto">
+        <div className="w-full gap-6 flex-wrap md:flex justify-between mt-20 items-center">
+          <div className="w-full md:w-[45%]">
             <label
               className="text-[#AF6B00] text-[40px] font-[700]"
               data-aos="fade-right"
@@ -101,7 +101,7 @@ const About = () => {
               practices.
             </p>
           </div>
-          <div className="w-[45%]">
+          <div className="w-full md:w-[45%]">
             <img
               data-aos="fade-right"
               data-aos-offset="500"

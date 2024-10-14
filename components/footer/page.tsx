@@ -5,14 +5,14 @@ import { IoIosArrowForward } from "react-icons/io";
 const Footer = () => {
   return (
     <div className="bg-[#D89B3D] py-12 mt-20">
-      <div className="container flex justify-between mx-auto">
-        <div className="w-[30%]">
+      <div className="container px-4 flex-wrap md:flex justify-between mx-auto">
+        <div className="sm:w-1/2 w-full md:w-[30%]">
           <label className="text-white text-[24px] font-[600]">
             Registered Address:
           </label>
           <p className="text-white text-[18px] mt-3 ">Lahore, Pakistan</p>
         </div>
-        <div className="w-[30%]">
+        <div className="sm:w-1/2 w-full md:w-[30%]">
           <div className="flex items-center gap-2 text-white">
             <div className="w-8">
               <svg
@@ -77,7 +77,7 @@ const Footer = () => {
             <p>+92 3448686697</p>
           </div>
         </div>
-        <div className="w-[30%] text-white">
+        <div className="sm:w-1/2 w-full md:w-[30%] text-white">
           <div className="flex items-center gap-3 mt-3 text-white">
             <IoIosArrowForward fontSize={30} />
             <p>About</p>

@@ -7,7 +7,7 @@ const Nabar = () => {
     <>
       <div className="bg-[#DB9C3C] w-full">
         <div className="container px-4 mx-auto">
-          <div className="flex justify-end p-2 gap-8 ml-auto">
+          <div className="flex-wrap sm:flex justify-end p-2 gap-8 ml-auto">
             <div className="flex items-center gap-2 text-white">
               <div className="w-8">
                 <svg
@@ -70,21 +70,23 @@ const Nabar = () => {
           </div>
         </div>
       </div>
-      <div className="container py-8 px-4 mx-auto shadow-blue-500">
-        <div className="bg-white text-[#7B7B7B] flex text-xl mx-auto gap-4 p-3 ml-auto">
-          <Link href={"/"}>
-            <p className="text-2xl font-bold">MATGLOBAL</p>
-          </Link>
-          <div className="ml-auto flex gap-8 cursor-pointer">
-            <Link href={"/products"}>
-              <label className="cursor-pointer">Products</label>
+      <div className="bg-white border-b-[3px] sticky shadow-md top-0 border-[#DB9C3C] z-50">
+        <div className="container   py-6 px-4 mx-auto ">
+          <div className="bg-white text-[#7B7B7B] flex-wrap sm:flex text-xl mx-auto gap-6 p-3 ml-auto">
+            <Link href={"/"}>
+              <p className="text-2xl font-bold">MATGLOBAL</p>
             </Link>
-            <Link href={"/about"}>
-              <label className="cursor-pointer">About</label>
-            </Link>
-            <Link href={"/products"}>
-              <label className="cursor-pointer">Contact</label>
-            </Link>
+            <div className="ml-auto flex gap-8 cursor-pointer">
+              <Link href={"/products"}>
+                <label className="cursor-pointer">Products</label>
+              </Link>
+              <Link href={"/about"}>
+                <label className="cursor-pointer">About</label>
+              </Link>
+              <Link href={"/products"}>
+                <label className="cursor-pointer">Contact</label>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
