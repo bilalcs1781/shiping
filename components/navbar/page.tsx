@@ -1,8 +1,14 @@
+"use client";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
 import { CiMail } from "react-icons/ci";
-
+import MobileMenu from "../MobileMenu/index";
+import { FiMenu } from "react-icons/fi";
 const Nabar = () => {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const mobileMenuHandler = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen);
+  };
   return (
     <>
       <div className="bg-[#DB9C3C] w-full">
@@ -71,25 +77,39 @@ const Nabar = () => {
         </div>
       </div>
       <div className="bg-white border-b-[3px] sticky shadow-md top-0 border-[#DB9C3C] z-50">
-        <div className="container   py-6 px-4 mx-auto ">
-          <div className="bg-white text-[#7B7B7B] flex-wrap sm:flex text-xl mx-auto gap-6 p-3 ml-auto">
+        <div className="container   py-3 px-4 mx-auto ">
+          <div className="bg-white items-center text-[#7B7B7B] flex-wrap sm:flex text-xl mx-auto gap-6 p-2 ml-auto">
             <Link href={"/"}>
-              <p className="text-2xl font-bold">MATGLOBAL</p>
+              <img
+                className="w-24"
+                src="/WhatsApp Image 2024-10-16 at 2.09.17 PM (1).jpeg"
+              />
             </Link>
             <div className="ml-auto flex gap-8 cursor-pointer">
+              {!isMobileMenuOpen && (
+                <FiMenu
+                  onClick={mobileMenuHandler}
+                  className="lg:hidden ml-auto text-black cursor-pointer text-3xl"
+                />
+              )}
               <Link href={"/products"}>
-                <label className="cursor-pointer">Products</label>
+                <label className="cursor-pointer lg:block hidden">
+                  Products
+                </label>
               </Link>
               <Link href={"/about"}>
-                <label className="cursor-pointer">About</label>
+                <label className="cursor-pointer lg:block hidden">About</label>
               </Link>
               <Link href={"/products"}>
-                <label className="cursor-pointer">Contact</label>
+                <label className="cursor-pointer lg:block hidden">
+                  Contact
+                </label>
               </Link>
             </div>
           </div>
         </div>
       </div>
+      {isMobileMenuOpen && <MobileMenu mobileMenuHandler={mobileMenuHandler} />}
     </>
   );
 };

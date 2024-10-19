@@ -30,51 +30,88 @@ const Products = () => {
       <div className="container px-4 mt-20 mx-auto">
         <p className="text-[30px] font-[600]">Agro & Food Products</p>
         <div className="flex flex-wrap gap-8 mt-12 justify-between rounded-lg">
-          <div
-            data-aos-offset="500"
-            data-aos-duration="500"
-            data-aos="fade-right"
-            className="sm:w-[45%] w-full md:w-[20%] shadow-lg pb-4"
-          >
-            <img src="/Asset-26-100.jpg" className="mb-3 h-32 w-full" />
-            <label className="mt-3 text-center mx-auto px-5 text-[22px] font-[500]">
-              RICE /BASMATI RICE
+          <div className="sm:w-[45%] w-full md:w-[20%] shadow-lg pb-4">
+            <img src="/s (1).jpg" className="mb-3 h-42 w-full" />
+            <label className="mt-3 text-center mx-auto ml-5 flex justify-between text-[22px] font-[500]">
+              Leather Shoes
             </label>
           </div>
           <div className="sm:w-[45%] w-full md:w-[20%] shadow-lg pb-4">
-            <img
-              src="/marek-studzinski-a7WVUj_94Go-unsplash.jpg"
-              className="mb-3 h-32 w-full"
-            />
-            <label className="mt-3 text-center mx-auto px-5 text-[22px] font-[500]">
+            <img src="/s (2).jpg" className="mb-3 h-42 w-full" />
+            <label className="mt-3 text-center mx-auto ml-5 flex justify-between text-[22px] font-[500]">
+              White Chick Peas
+            </label>
+          </div>
+          <div className="sm:w-[45%] w-full md:w-[20%] shadow-lg pb-4">
+            <img src="/s.jpg" className="mb-3 h-42 w-full" />
+            <label className="mt-3 text-center mx-auto ml-5 flex justify-between text-[22px] font-[500]">
+              Sports Items (Tracksuits)
+            </label>
+          </div>
+          <div className="sm:w-[45%] w-full md:w-[20%] shadow-lg pb-4">
+            <img src="/t (1).jpg" className="mb-3 h-42 w-full" />
+            <label className="mt-3 text-center mx-auto ml-5 flex justify-between text-[22px] font-[500]">
+              Food Masala
+            </label>
+          </div>
+          <div className="sm:w-[45%] w-full md:w-[20%] shadow-lg pb-4">
+            <img src="/t (2).jpg" className="mb-3 h-42 w-full" />
+            <label className="mt-3 text-center mx-auto ml-5 flex justify-between text-[22px] font-[500]">
+              Non-Basmati Rice{" "}
+            </label>
+          </div>
+          <div className="sm:w-[45%] w-full md:w-[20%] shadow-lg pb-4">
+            <img src="/t (3).jpg" className="mb-3 h-42 w-full" />
+            <label className="mt-3 text-center mx-auto ml-5 flex justify-between text-[22px] font-[500]">
+              White Chick Peas{" "}
+            </label>
+          </div>
+          <div className="sm:w-[45%] w-full md:w-[20%] shadow-lg pb-4">
+            <img src="/t (4).jpg" className="mb-3 h-42 w-full" />
+            <label className="mt-3 text-center mx-auto ml-5 flex justify-between text-[22px] font-[500]">
               Maize{" "}
             </label>
           </div>
           <div className="sm:w-[45%] w-full md:w-[20%] shadow-lg pb-4">
-            <img
-              src="/samet-kurtkus-L6hsus2Q768-unsplash.jpg"
-              className="mb-3 h-32 w-full"
-            />
-            <label className="mt-3 text-center mx-auto px-5 text-[22px] font-[500]">
-              Barley
+            <img src="/t.jpg" className="mb-3 h-42 w-full" />
+            <label className="mt-3 text-center mx-auto ml-5 flex justify-between text-[22px] font-[500]">
+              Sports Item (Bat, Ball, FootBall)
             </label>
           </div>
           <div className="sm:w-[45%] w-full md:w-[20%] shadow-lg pb-4">
-            <img
-              src="/dimitri-photography-7T4z7OQK-U0-unsplash.jpg"
-              className="mb-3 h-32 w-full"
-            />
-            <label className="mt-3 text-center mx-auto px-5 text-[22px] font-[500]">
-              Desi Chick Peas
+            <img src="/thumbnail (1).jpg" className="mb-3 h-42 w-full" />
+            <label className="mt-3 text-center mx-auto ml-5 flex justify-between text-[22px] font-[500]">
+              Barley{" "}
             </label>
           </div>
           <div className="sm:w-[45%] w-full md:w-[20%] shadow-lg pb-4">
-            <img
-              src="/aditya-kulkarni-MCeNtqgbJUo-unsplash.jpg"
-              className="mb-3 h-32 w-full"
-            />
-            <label className="mt-3 text-center mx-auto px-5 text-[22px] font-[500]">
-              Food Masala{" "}
+            <img src="/thumbnail-1 (1).jpg" className="mb-3 h-42 w-full" />
+            <label className="mt-3 text-center mx-auto ml-5 flex justify-between text-[22px] font-[500]">
+              Leather Jackets{" "}
+            </label>
+          </div>
+          <div className="sm:w-[45%] w-full md:w-[20%] shadow-lg pb-4">
+            <img src="/thumbnail.jpg" className="mb-3 h-42 w-full" />
+            <label className="mt-3 text-center mx-auto ml-5 flex justify-between text-[22px] font-[500]">
+              Basmati Rice{" "}
+            </label>
+          </div>
+          <div className="sm:w-[45%] w-full md:w-[20%] shadow-lg pb-4">
+            <img src="/screen.jpg" className="mb-3 h-42 w-full" />
+            <label className="mt-3 text-center mx-auto ml-5 flex justify-between text-[22px] font-[500]">
+              Himalayan Pink Salt
+            </label>
+          </div>
+          <div className="sm:w-[45%] w-full md:w-[20%] shadow-lg pb-4">
+            <img src="/thumbnail-1.jpg" className="mb-3 h-42 w-full" />
+            <label className="mt-3 text-center mx-auto ml-5 flex justify-between  text-[22px] font-[500]">
+              Surgical Equipments (Dental Kits)
+            </label>
+          </div>
+          <div className="sm:w-[45%] w-full md:w-[20%] shadow-lg pb-4">
+            <img src="/width_199.jpeg" className="mb-3 h-42 w-full" />
+            <label className="mt-3 text-center mx-auto ml-5 flex justify-between text-[22px] font-[500]">
+              WHITE UREA N46 PRILLED
             </label>
           </div>
         </div>

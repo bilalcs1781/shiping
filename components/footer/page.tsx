@@ -84,7 +84,7 @@ const Footer = () => {
           </div>
           <div className="flex items-center gap-3 mt-3 text-white">
             <IoIosArrowForward fontSize={30} />
-            <p>COntact</p>
+            <p>Contact</p>
           </div>
           <div className="flex items-center gap-3 mt-3 text-white">
             <IoIosArrowForward fontSize={30} />
