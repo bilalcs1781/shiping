@@ -77,7 +77,7 @@ const Nabar = () => {
         </div>
       </div>
       <div className="bg-white border-b-[3px] sticky shadow-md top-0 border-[#DB9C3C] z-50">
-        <div className="container   py-3 px-4 mx-auto ">
+        <div className="container px-4 mx-auto ">
           <div className="bg-white items-center text-[#7B7B7B] flex-wrap sm:flex text-xl mx-auto gap-6 p-2 ml-auto">
             <Link href={"/"}>
               <img
