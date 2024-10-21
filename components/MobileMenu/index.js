@@ -26,9 +26,9 @@ const MobileMenu = ({ mobileMenuHandler }) => {
               className={({ isActive }) =>
                 isActive ? styles.active : styles.inactive
               }
-              href={"/list-coins"}
+              href={"/products"}
             >
-              List of coins
+              Products
             </Link>
           </div>
           <div className={styles.links}>
@@ -37,9 +37,9 @@ const MobileMenu = ({ mobileMenuHandler }) => {
               className={({ isActive }) =>
                 isActive ? styles.active : styles.inactive
               }
-              href={"/list-coins"}
+              href={"/about"}
             >
-              List of coins
+              About
             </Link>
           </div>
         </div>
